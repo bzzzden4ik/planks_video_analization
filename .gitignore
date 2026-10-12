@@ -1,0 +1,50 @@
+# Виртуальное окружение (создаётся заново: см. README.md)
+.venv/
+venv/
+
+# Служебные файлы Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Видео: исходники слишком большие для git (256 МБ), результаты пересоздаются
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Результаты и промежуточные данные (пересоздаются скриптами)
+results/
+frames/
+cache/
+activity.csv
+activity.png
+*.npy
+*.npz
+
+# Черновики, которые программа не использует
+lens_calibration.py
+board_ends_prototype.py
+
+# Нейросеть: датасеты, результаты обучения и веса моделей (большие файлы)
+datasets/
+runs/
+*.pt
+*.pth
+*.onnx
+openvino_model/
+
+# Логи и секреты (пароли, адреса серверов)
+*.log
+logs/
+.env
+
+# Локальные настройки Claude Code
+.claude/settings.local.json
+
+# Редакторы и система
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
