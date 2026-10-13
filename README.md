@@ -1,6 +1,11 @@
 # Подсчёт и измерение досок на видео конвейера
 
-Все команды выполняются в PowerShell **из папки проекта** (`MLKsusha`).
+Это решение без нейросети (классическое компьютерное зрение).
+Все команды выполняются в PowerShell **из папки `analization`**:
+
+```powershell
+cd C:\Users\user\Documents\Projects\pyProjects\MLKsusha\analization
+```
 
 ## 1. Установка (один раз)
 
